@@ -80,7 +80,7 @@ export default function App() {
               padding: "4rem 2rem "
             }}
           >
-            © | 2021 | krishanuDutta
+            © | 2021 | krishanu
           </div>
         </div>
       </section>
