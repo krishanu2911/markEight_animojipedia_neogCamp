@@ -6,7 +6,12 @@ var animalEmoji = {
   "🐱": "cat",
   "🦝": "raccoon",
   "🐴": "horse",
-  "🐄": "cow"
+  "🐄": "cow",
+  "🦁": "lion",
+  "🦄": "unicorn",
+  "🐹": "hamster",
+  "🐻": "bear",
+  "🐼": "panda"
 };
 var emojiWeKnow = Object.keys(animalEmoji);
 
