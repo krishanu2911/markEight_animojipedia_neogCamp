@@ -20,11 +20,12 @@ export default function App() {
 
   function emojiInputHandler(event) {
     var userInput = event.target.value;
-    var meaning = animalEmoji[userInput];
-    if (meaning in animalEmoji) {
-      setMeaning(meaning);
+    // var meaning = animalEmoji[userInput];
+    if (userInput in animalEmoji) {
+      setMeaning(animalEmoji[userInput]);
+    } else {
+      setMeaning("we don't have this in our Database");
     }
-    setMeaning("we don't have this in our Database");
   }
   function emojiclickhandler(item) {
     var meaning = animalEmoji[item];
